@@ -1,0 +1,26 @@
+/* Dashboard.css */
+
+.dashboard {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .graph-container {
+    display: flex;
+  }
+  
+  .graph {
+    flex: 1;
+    margin-right: 20px; /* Adjust the margin between graphs */
+  }
+  
+  /* Style for Revenue Graph */
+  .revenue-graph {
+    /* Add styles specific to your Revenue Graph */
+  }
+  
+  /* Style for Affiliates Graph */
+  .affiliates-graph {
+    /* Add styles specific to your Affiliates Graph */
+  }
+  

@@ -1,0 +1,69 @@
+
+/* Dashboard.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #bed7d8;
+    margin: 0;
+    height: 100%;
+  }
+  
+  i {
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  .bar {
+    background: #fff;
+    border-radius: 16px;
+    padding: 10px;
+    height: 90vh;
+    margin: 10px 0 0 20px;
+    width: 200px;
+    box-shadow: 0px 7px 10px #0000000f;
+    display: block;
+    /* color: #bbb; */
+    color:black;
+    transition: all 0.5s ease;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden;
+  }
+  
+  .barexpanded {
+    width: 200px;
+  }
+  
+  .tools {
+    padding: 0;
+    list-style-type: none;
+    line-height: 1rem;
+  }
+  
+  .tools li {
+    display: flex;
+    padding: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Added transition for background */
+  }
+  
+  .tools li:hover {
+    background: #e3f3f4;
+    border-radius: 10px;
+  }
+  
+  .tools div {
+    opacity: 0;
+    padding-left: 10px;
+    transition: opacity 0.3s ease, padding-left 0.3s ease; /* Updated transition properties */
+    font-weight: bold;
+    color: #585858;
+  }
+  
+  .bar.expanded .tools div {
+    opacity: 1 !important;
+    padding-left: 10px; /* Adjust the padding to match your design */
+  }
+  
+
